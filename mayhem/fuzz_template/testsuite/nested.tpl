@@ -1,0 +1,1 @@
+<loop set="list" value="l"><if case="{var:l} == 2">two</if>{var:l}</loop>{var:list[4][0]}

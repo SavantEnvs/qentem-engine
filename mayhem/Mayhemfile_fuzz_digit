@@ -1,0 +1,9 @@
+project: savantenvs/qentem-engine
+target: fuzz_digit
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_digit/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_digit
+    libfuzzer: true
+    timeout: 5

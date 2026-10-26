@@ -1,0 +1,1 @@
+{math:2+3*4} {math:{var:n} * 2 - 1} {math:(1+2)^3%5} {math:{var:n}==7&&1<2} {math:10/4}

@@ -1,0 +1,1 @@
+<if case="{var:n} == 7">seven<if case="{var:neg} < 0"> and neg</if></if> {if case="{var:t}" true="T" false="F"}

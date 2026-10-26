@@ -1,0 +1,8 @@
+# Prune only docs, examples, artwork and local build output from the build context.
+# .git, Include/, Tests/ and mayhem/ must stay (git history is required in the image).
+Documentation
+Examples
+icon.png
+*.md
+!mayhem/**/*.md
+Build

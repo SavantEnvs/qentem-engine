@@ -1,0 +1,1 @@
+{if case="{var:n} > 5" true="big" false="small"} {if case="{var:name} == Qentem" true="ok"}

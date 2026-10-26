@@ -1,0 +1,1 @@
+<loop set="objs" value="o" sort="descend">{var:o[tag]}</loop><loop set="objs" value="o" group="tag">[{var:o[id]}]</loop>

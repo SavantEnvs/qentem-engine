@@ -1,0 +1,2 @@
+// line comment
+{"a": /* block */ [1,2,3], "b": "http://x/*not*/", "c": 1} // tail

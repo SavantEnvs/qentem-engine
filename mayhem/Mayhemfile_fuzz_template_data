@@ -1,0 +1,10 @@
+project: savantenvs/qentem-engine
+target: fuzz_template_data
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_template_data/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_template_data
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_template_data/fuzz_template_data.dict
+    timeout: 5

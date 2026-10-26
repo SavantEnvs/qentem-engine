@@ -1,0 +1,1 @@
+<loop set="objs" value="o">{var:o[id]}={var:o[tag]};</loop> <loop set="map" value="m">{var:m},</loop>
